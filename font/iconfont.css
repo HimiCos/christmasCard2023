@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1683189682871') format('truetype');
+}
+@font-face {
+  font-family: "钉钉进步体 Regular";font-weight: 400;src: url("./DingTalk_JinBuTi_Regular.woff2") format("woff2"),
+  url("./DingTalk_JinBuTi_Regular.woff") format("woff");
+  font-display: swap;
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 17px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+}
+
+.icon-zhuye:before {
+  content: "\e655";
+}
+
+.icon-guanyu:before {
+  content: "\e633";
+}
+
+.icon-jurassic_message:before {
+  content: "\e69d";
+}
